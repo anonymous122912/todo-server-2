@@ -7,9 +7,10 @@
     "outDir": "./dist",
     "strict": true,
     "allowJs": true,
-    "noEmit": true
+    "noEmit": false
   },
   "ts-node": {
     "esm": true
-  }
+  },
+  "include": ["src"]
 }
